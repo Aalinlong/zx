@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="renderer" content="webkit">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no"/>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+  <title>维加斯</title>
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="styles/vendor-594881c12f.css">
+
+  <link rel="stylesheet" href="styles/main-2c0c83270c.css">
+  <script>
+    var ua = navigator.userAgent;
+    var isMobile = !!ua.match(/AppleWebKit.*Mobile.*/);
+
+    //检测是否移动端
+    if(isMobile) {
+      window.location.href = 'm/main.html';
+    }
+
+    document.write("<link id='link_theme' rel='stylesheet' href='styles/theme/main-29b9087aa6.default.css'>");
+  </script>
+
+</head>
+<body oncontextmenu="return false;">
+<div id="main">
+  <div id="home_main" class="container-fluid"></div>
+  <div id="nav_main"></div>
+  <div id="multiple_main" class="container-fluid"></div>
+  <div id="betroom_main" class="container-fluid"></div>
+  <div id="phoneroom_main" class="container-fluid"></div>
+  <div id="niuniuroom_main" class="container-fluid" tabindex="-1"></div>
+  <div id="chainbet_main" class="container-fluid"></div>
+
+  <div id="video_play"></div>
+  <div id="loading" class="loading active">
+    <div></div>
+  </div>
+  <div class="shoushi_bg"></div>
+  <div id="tips">投注开始，请投注。</div>
+  <audio id="tip_audio" webkit-playsinline =“true” playsinline =“true” style="position: fixed;top: 200px;z-index: 10000000"></audio>
+  <audio id="fast_audio" webkit-playsinline =“true” playsinline =“true” preload="auto" style="position: fixed;top: 200px;z-index: 10000000"></audio>
+  <audio id="bg_audio" webkit-playsinline =“true” playsinline =“true” preload="auto" style="position: fixed;top: 200px;z-index: 10000000"></audio>
+</div>
+
+<!--信息提示窗口-->
+<div id="main_modal_info" class="modal animated fadeIn" role="dialog" data-backdrop="static">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+        <h4 class="modal-title" id="main_modal_info_title"><span class="glyphicon glyphicon-info-sign"></span> 提示</h4>
+      </div>
+      <div class="modal-body">
+        <div id="main_modal_info_content">
+          登录已过期，请重新登录。
+        </div>
+        <div class="btn-groups">
+          <a class="btn btn-default" id="main_modal_info_btn_cancel"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>&nbsp;取消</a>
+          <a class="btn btn-default" id="main_modal_info_btn_ok"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;确定</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="scripts/Common-ee98ae94f2.js"></script>
+
+<script src="scripts/SystemStorage-a94f04c1be.js"></script>
+
+<script src="scripts/vendor/qrious-63e8daffbe.js"></script>
+<script src="scripts/vendor/clipboard-639cef7e4b.js"></script>
+
+<script src="scripts/vendor/msgpack-6436d7a6dc.js"></script>
+
+<script src="scripts/vendor/screenfull-a7444f2f02.js"></script>
+
+<script src="scripts/vendor/flv-b16bf2ec32.js"></script>
+
+<script src="scripts/vendor/require-18823f6a6d.js"></script>
+
+<script src="scripts/Config-d8ccf0ee13.js"></script>
+
+<script src="scripts/Portal-8096fd7f28.js"></script>
+</body>
+</html>
