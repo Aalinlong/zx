@@ -1,0 +1,1 @@
+"use strict";sessionStorage.api="http://client-api.cy928.com:9801/",sessionStorage.register_api="http://reg.xtg168.com:6502/",sessionStorage.enableMsgpack="false",sessionStorage.enableDebug="false",sessionStorage.enableRealCards="false",sessionStorage.OnlineTopUp="http://pay.leegaming.com/royal/";

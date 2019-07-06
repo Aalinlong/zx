@@ -1,0 +1,1 @@
+!function(){var e={setValue:function(e,t){var i="string"==typeof t?t:JSON.stringify(t);"api"in window?api.setPrefs({key:e,value:i}):localStorage.setItem(e,i)},getValue:function(e){return"api"in window?api.getPrefs({sync:!0,key:e}):localStorage.getItem(e)},removeValue:function(e){"api"in window?api.removePrefs({key:e}):localStorage.removeItem(e)}};window.SystemStorage=e}();

@@ -1,0 +1,1 @@
+"use strict";sessionStorage.api="http://client-api.cy928.com:9801/",sessionStorage.enableMsgpack="false",sessionStorage.enableDebug="false",sessionStorage.OnlineTopUp="http://pay.tjsteady.com/userpay/?Userid=BWSTKR";
