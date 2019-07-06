@@ -1,0 +1,18 @@
+{
+  "name": "维加斯娱乐",
+  "short_name": "维加斯",
+  "start_url": "./login.html",
+  "display": "standalone",
+  "description": "维加斯娱乐离线版",
+  "orientation": "natural",
+  "prefer_related_applications": false,
+  "theme_color": "#FFDF00",
+  "background_color": "#FFDF00",
+  "icons": [
+    {
+      "src": "./images/icon-512x512.png",
+      "sizes": "512*512",
+      "type": "image/png"
+    }
+  ]
+}
