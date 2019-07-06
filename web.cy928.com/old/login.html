@@ -1,0 +1,149 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html">
+  
+  <meta name="description" content="">
+  <meta name="renderer" content="webkit">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <title>维加斯</title>
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="manifest" href="manifest.css">
+
+  <link rel="stylesheet" href="styles/vendor-44b4cf96ce.css">
+
+  <link rel="stylesheet" href="styles/login-dcee4a1b18.css">
+  <script>
+    if(localStorage.theme == 'bright') {
+      document.write("<link id='link_theme' rel='stylesheet' href='styles/theme/login-5c660b97c9.bright.css'>");
+    } else {
+      document.write("<link id='link_theme' rel='stylesheet' href='styles/theme/login-5c660b97c9.bright.css'>");
+    }
+  </script>
+  <script>
+    if (sessionStorage.user) {
+      location.href = "main.html";
+    }
+  </script>
+
+  <script src="scripts/Common-2abbbc4ead.js"></script>
+
+  <script src="scripts/vendor-3c1b24bdbb.js"></script>
+</head>
+<body oncontextmenu="return false;">
+<div id="content" class="container-fluid">
+  <a class="back-new-version" href="../login.html"><img src="images/theme/preview-new.png">&nbsp;切换新版</a>
+  <div class="content-bg">
+    <div class="bg-list">
+      <div class="item1 active"></div>
+      <div class="item2"></div>
+      <div class="item3"></div>
+    </div>
+  </div>
+  <div class="bg"></div>
+  <div class="login-form-bg animated fadeIn infinite animated-delay25"></div>
+  <div class="login-form animated fadeIn">
+    <div class="form">
+      <div class="theme">
+        <a id="btn_theme" data-toggle="modal" data-target="#modal_theme_select">换肤</a>
+      </div>
+      <div class="logo">
+        <img src="images/theme/bright/logo.png">
+        <img src="images/theme/bright/logo_title.png">
+      </div>
+      <form class="form-horizontal" action="">
+        <div class="form-group">
+          <div class="alert alert-warning alert-dismissible fade in text-center animated fadeInDown" aria-label="Close" role="alert">
+            用户名或密码错误
+          </div>
+        </div>
+        <div class="form-group animated fadeInUp animated-delay07">
+          <label for="username" class="col-sm-3 col-xs-3 control-label">用户名：</label>
+
+          <div class="col-sm-8 col-xs-8">
+            <input type="text" class="form-control" id="username" placeholder="请输入用户名" autocomplete="new-password">
+          </div>
+        </div>
+        <div class="form-group animated fadeInUp animated-delay1">
+          <label for="password" class="col-sm-3 col-xs-3 control-label">密&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+
+          <div class="col-sm-8 col-xs-8">
+            <input type="password" class="form-control" id="password" placeholder="请输入密码" autocomplete="new-password">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-12" style="text-align: center;">
+            <a id="ensure" class="btn btn-default">确认</a>
+            <a id="cancel" class="btn btn-default">取消</a>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="loading">
+            <div></div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div id="modal_theme_select" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" title="关闭" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+        <h4 class="modal-title" id="main_modal_info_title"><span class="glyphicon glyphicon-blackboard"></span>主题设置</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row text-center">
+            <div class="col-xs-6">
+              <label class="radio-inline">
+                <input type="radio" name="select-theme" value="bright"> 炫彩版<br>
+                <img class="theme-item" src="images/theme/preview-bright.png">
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal_notification" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"><span class="glyphicon glyphicon-bullhorn"></span> 通 知</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/x-handlebars-template" id="template_switch_line">
+  {{#lines}}
+  <li>
+    <a>
+      <label class="radio-inline">
+        <input type="radio" name="select-line" value="{{url}}" {{#equal url ../current}}checked{{/equal}}> {{name}}
+      </label>
+    </a>
+  </li>
+  {{/lines}}
+</script>
+
+<script src="scripts/vendor/msgpack-6436d7a6dc.js"></script>
+
+<script src="scripts/Login-076b3d64d5.js"></script>
+</body>
+</html>
